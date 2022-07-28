@@ -1,0 +1,47 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 80%;
+    height: 350px;
+    background-color:rgb(115, 78, 30) ;
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center   ;
+    /* position: fixed; bunda ham qadab qoyadi */
+    /* position: sticky;texksni qatirib qoyadi
+      top: 0%;
+      left: 0%;    
+      ishlatish majburiy */
+
+       /* opacity: 0.1; hiralashtirib beradi */
+
+}
+.cart{
+    /* list-style: none; */
+    width: 120px;
+    height: 200px;
+    background-color: black;
+    border: 1px solid red;
+}
+.hero-titel{
+    position: absolute;
+    /* position: absolute; rsm ustiga yozuvni chiqaradi */
+    top: 50%;
+    left: 50%;
+} 
+/* 
+
+*/
+
+.collection{
+    display: flex;
+    list-style:none ;
+}
+.collection{
+    /* linkit in */
+
+}
